@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SignalShield — AI-Powered Spam & Phishing Message Detector
 
 A complete academic prototype for Problem Statement 32. It uses a Python/Flask backend, a responsive HTML/CSS/JavaScript frontend, a three-class text classifier, explainable indicators, risk scoring, and human feedback.
@@ -136,7 +135,3 @@ For a credible evaluation:
 4. Run the **Phishing** example; show urgency, credential request, and suspicious URL indicators.
 5. Correct a result using the feedback buttons; show `data/feedback.csv`.
 6. Explain model probabilities versus the separate heuristic risk score and mention the seed-data limitation.
-=======
-# AI-Powered-Spam-Phishing-Message-Detector
-An AI-powered Spam and Phishing Detector built with Python and Flask to analyze messages and identify potential spam, phishing attempts, and suspicious content. Features a simple web interface for real-time message analysis and machine learning-based classification.
->>>>>>> f5b1f74672dd3792d24da1268689314aa03eafc0
