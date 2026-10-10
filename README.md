@@ -1,4 +1,4 @@
-# SignalShield — AI-Powered Spam & Phishing Message Detector
+﻿# SignalShield — AI-Powered Spam & Phishing Message Detector
 
 A complete academic prototype for Problem Statement 32. It uses a Python/Flask backend, a responsive HTML/CSS/JavaScript frontend, a three-class text classifier, explainable indicators, risk scoring, and human feedback.
 
@@ -15,7 +15,7 @@ A complete academic prototype for Problem Statement 32. It uses a Python/Flask b
 ## Project structure
 
 ```text
-ai_spam_phishing_detector/
+.
 ├── app.py
 ├── model_utils.py
 ├── train_model.py
@@ -23,9 +23,9 @@ ai_spam_phishing_detector/
 ├── README.md
 ├── data/
 │   ├── messages.csv
-│   └── feedback.csv            # created when feedback is submitted
+│   └── feedback.csv                 # created when feedback is submitted
 ├── models/
-│   └── message_classifier.joblib  # generated at first run
+│   └── message_classifier.joblib    # generated when needed; ignored by Git
 ├── templates/
 │   └── index.html
 ├── static/
@@ -34,6 +34,8 @@ ai_spam_phishing_detector/
 └── tests/
     └── test_api.py
 ```
+
+The repository root is the application directory. Development and analysis scripts or artifacts may also be present in the root.
 
 ## Requirements
 
